@@ -19,6 +19,7 @@ const devConfig = {
       name: "marketing",
       filename: "remoteEntry.js",
       exposes: { "./MarketingApp": "./src/bootstrap.js" },
+      shared: ["react", "react-dom"],
     }),
   ],
 };
